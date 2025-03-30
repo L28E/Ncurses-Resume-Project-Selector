@@ -1,0 +1,176 @@
+[
+    {
+        "title": "Embedded Prototyping",
+        "date_range": "2/2025 - Present",
+        "items": [
+            "Developed and deployed bare-metal C code on an ATtiny85 microcontroller, using firmware to control the universal serial interface and communicate with a triple-axis accelerometer via I2C.",
+            "Assembled a toolchain using open source tools such as avr-libc, gcc, make, gdb, avrdude, and bloom for AVR development, In-System Programming, and hardware debugging."
+        ]
+    },
+    {
+        "title": "Verilog Clock and Data Recovery (CDR)",
+        "date_range": "2/2025",
+        "items": [
+             "Implemented a ``Multiple Rotating Clock Phase Architecture for Clock and Data Recovery'' described in an IEEE paper, using Verilog for entry, Icarus Verilog for compilation, and GTKWave as a wave viewer (\\textcolor{cyan}{\\href{https://github.com/L28E/MRCP-CDR}{link}}).",
+             "Verified individual modules with test benches, and implemented a pseudorandom bit sequence generator to verify the CDR's tracking ability."
+        ]
+    },
+    {
+        "title": "Homelab",
+        "date_range": "2020 - Present",
+        "items": [
+             "Self-hosted several services across an evolving collection of x86-64 and ARM systems running Linux.",
+             "Assembled and serviced many desktop and rack mount machines, including some component level repair.",
+             "Deployed services such as Jupyter Notebook, Jellyfin, Raspotify, Samba, VSFTPD, Navidrome, Heritrix."
+        ]
+    },
+    {
+        "title": "Op-Amp Design",
+        "date_range": "11/2023 - 12/2023",
+        "items": [
+             "Created the schematic and layout of a two-stage CMOS op-amp in Cadence Virtuoso as a demonstration of basic op-amp design.",
+             "Fulfilled all of the ≥12 design specifications across various corners both pre-layout and post-layout, while adhering to area and layer constraints."
+        ]
+    },
+    {
+        "title": "Programming and Demonstrating a Neural Network Training Method",
+        "date_range": "12/2023",
+        "items": [
+             "Programmed the Nelder-Mead numerical method and a small multi-layer perceptron neural network in C to demonstrate artificial neural network structures and training methods (\\textcolor{cyan}{\\href{https://github.com/L28E/Downhill-Simplex-for-a-Simple-ANN}{link}}).",
+             "Applied training, testing, and validation procedures to train a model representing a non-linear problem."
+        ]
+    },
+    {
+        "title": "Implementing a Z80-like Processor with Modern EDA Tools",
+        "date_range": "12/2023",
+        "items": [
+             "Authored a report documenting the present state as well as emerging trends in the electronic design automation workflow; simulation, synthesis, and layout from HDLs like Verilog and VHDL.",
+             "Simulated, synthesized, and routed the RTL design for a Z80-like processor using ModelSim and Cadence Virtuoso as a demonstration of the workflow, going from RTL to Netlist to GDSII."
+        ]
+    },
+    {
+        "title": "PCM2704 USB Audio DAC PCB",
+        "date_range": "5/2023",
+        "items": [
+             "Designed a PCB to mount on a cell phone to restore the 3.5 mm audio jack with an integrated solution.",
+             "From a suggested schematic in the IC's datasheet, created a bill of materials, revised it based on component cost and availability, and created a PCB layout in KiCAD.",
+             "Identified a flaw in the PCB design which prevented the board and host from establishing correct data roles."
+        ]
+    },
+    {
+        "title": "Frequency \\& Time Domain Simulation with Model Order Reduction",
+        "date_range": "1/2023 - 4/2023",
+        "items": [
+             "Programmed a frequency domain circuit simulator in MATLAB using modified nodal analysis, then added time domain simulation using either backward Euler or trapezoidal rule, then added model order reduction.",
+             "Validated the simulator by collating the output with circuit analysis performed in ngspice."
+        ]
+    },
+    {
+        "title": "Design of a Tracking ADC",
+        "date_range": "12/2022",
+        "items": [
+             "Designed and evaluated a 4-bit tracking ADC; a simple Nyquist Rate ADC consisting of a comparator, counter, and feedback DAC in Cadence Virtuoso.",
+             "Assembled the comparator and DAC in the schematic editor, and the counter in both Verilog and Verilog-AMS."
+        ]
+    },
+    {
+        "title": "Micro-Architectural Optimization Tutorial Paper",
+        "date_range": "12/2022",
+        "items": [
+             "Authored a tutorial paper on application-specific micro-architectural optimization to form an understanding of how hardware and software design may inform each other and to demonstrate technical writing.",
+             "Examined graph theory, specifically how dataflow graphs may be observed and manipulated with various optimization methods to improve the efficiency of a potential micro-architecture."
+        ]
+    },
+    {
+        "title": "CUTS Converter - A Digital Signal Processing Experiment",
+        "date_range": "11/2021, 8/2022",
+        "items": [
+             "Wrote a C program to convert files for storage on an audio cassette as an exercise in DSP techniques (\\textcolor{cyan}{\\href{https://github.com/L28E/CUTS-Converter}{link}}).",
+             "Utilized frequency shift keying (FSK) for modulation and asynchronous FSK detection for demodulation, including 2 band pass filters, 2 envelope detectors, and decision logic.",
+             "Debugged and verified the program using GDB and gnuplot."
+        ]
+    },
+    {
+        "title": "``A Crash Course in Electrical Engineering'' - Presentation for Local Cub Scouts",
+        "date_range": "5/2022",
+        "items": [
+             "Created a presentation for youths age 8 to 10 to pique their interest in electronics, starting at first principles and weaving a trail of math, physics, chemistry which leads to modern computing.",
+             "Used props and breadboard circuits, and answered questions to aid explanation to a non-technical audience."
+        ]
+    },
+    {
+        "title": "Estimating Blood Pressure with Machine Learning",
+        "date_range": "9/2021 - 4/2022",
+        "items": [
+             "Led 3 peers in developing different neural network models in Python to estimate blood pressure from biometric signals previously recorded with a watch-like device.",
+             "Determined the critical path, set milestones, assessed progress, and provided technical support to the team.",
+             "Achieved a mean absolute error of 1.98 mmHg for systolic and 1.23 mmHg for diastolic pressure with ECG signals and random forest regression, meeting the AAMI standard for automated blood pressure monitors."
+        ]
+    },
+    {
+        "title": "Various VHDL Designs",
+        "date_range": "1/2022 - 4/2022",
+        "items": [
+             "Created RTL designs for a pipelined array multiplier, 8x8 synchronous FIFO buffer (using memory from the IP catalog), and a PRBS generator on an Altera Cyclone V FPGA using VHDL and Quartus Prime for synthesis."
+        ]
+    },
+    {
+        "title": "Verilog Signed Serial Multiplier",
+        "date_range": "9/2021 - 12/2021",
+        "items": [
+             "Created a RTL Design for a 8 x 9 bit signed serial multiplier in Verilog.",
+             "Simulated, synthesized, and routed the design with a 65 nm TSMC process in Cadence Virtuoso.",
+             "Conducted design rule checks and evaluated the functionality, performance, and power dissipation of the design at different levels of abstraction."
+        ]
+    },
+    {
+        "title": "x86 Assembly Game",
+        "date_range": "9/2021 - 12/2021",
+        "items": [
+             "Programmed the game ``Chonker's Escape'' in x86 assembly as an exercise in low-level programming.",
+             "Implemented pseudo-random number generation to place rocks at the bottom of the screen, and the ``chonker'', controlled by software interrupts for keyboard input, must avoid the rocks as it burrows.",
+             "Demonstrated embedded topics through coursework; interrupt handling on a STM32, I2C and SPI on Arduino."
+        ]
+    },
+    {
+        "title": "CSES Senior Design Competition Director",
+        "date_range": "9/2021 - 12/2021",
+        "items": [
+             "Created a challenging and engaging problem statement for senior students participating in the Carleton Engineering Competition — build a robotic shot put device from the available materials.",
+             "Selected materials which facilitated a variety of solutions while excluding elastic elements for difficulty, wrote the judging criteria, and collaborated with other directors to host a successful competition."
+        ]
+    },
+    {
+        "title": "Remote Live View",
+        "date_range": "1/2020 - 4/2020",
+        "items": [
+             "Programmed a small full-stack Java web app for a Raspberry Pi to expose the live view and settings of a DSLR camera through a Wi-Fi hotspot.",
+             "Used the libgphoto2 library for camera access, JNA for Java bindings to the library, Jetty as an embedded server to serve the web interface, and hostapd + dnsmasq to provide an access point."
+        ]
+    },
+    {
+        "title": "``Pseudo-Holographic Pyramid''",
+        "date_range": "1/2019 - 4/2019",
+        "items": [
+             "Collaborated with 5 peers to build a “Pseudo-Holographic Pyramid”; a Raspberry Pi-based multi-media device which responded to voice commands, turning to show the desired face to the user.",
+             "Developed the graphical and voice interface, and rotation in Python. Used data analysis libraries to calculate the angle of the audio source in a stereo recording, and therefore the relative angle the user."
+        ]
+    },
+    {
+        "title": "Technical Concept Project - Communication Skills for Engineering Student (CCDP 2100)",
+        "date_range": "1/2018 - 4/2018",
+        "items": [
+             "Collaborated with peers to research the engineering concepts underlying upper limb prosthetics, and present findings in spoken and written form to a non-technical audience.",
+             "Co-presented the arm as; a kinematic system, a bio-electric system, and a programmatic system.",
+             "Authored a final technical report presenting the merit of object-oriented programming in prosthetic devices."
+        ]
+    },
+    {
+        "title": "Honourable Mention - U of T ``Ask a Laureate'' High School Essay Contest",
+        "date_range": "5/2016",
+        "items": [
+             "Received an Honourable mention for my essay: ``Spent Nuclear Fuel: The Forlorn - or Fantastic Fate of `Formerly' Fissile Material'', and was subsequently invited to a lecture and lunch.",
+             "Prioritized clear, concise, grammatically correct writing to condense important points into a 600 word limit, with some chemical insight and accurate chemical explanations."
+        ]
+    }    
+]
