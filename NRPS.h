@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <jansson.h>
 
-char pre_itemize[] = "\\textbf{%s} \\hfill %s \\\\\n\\vspace{-9pt}";
+char pre_itemize[] = "\\textbf{%s} \\hfill %s \\\\";
 
 typedef struct
 {
